@@ -1,0 +1,236 @@
+21/05/2024
+Naming Convention:
+-camelCase,kebab,snake
+
+JavaScript :
+Javascript Feature:
+1.Es6 launch in 2016
+two ways we can run js
+1.in html use <script>tag
+2.and separate file
+node js -v8
+programming lang two type
+1.compile programing lang.-->code-->compiler-->Machine code(byte code)-->output eg,c,cpp
+2.interpreted programing lang-->source code-->Interpreted-->output eg.JS,python,php
+
+Q1.What is JavaScript?
+ans:- Js It is Lightweight
+    - Js It is client side scripting programming Languge
+    - Js Interpreter prog laung
+    -Js object orieted programing lang
+
+Global object:
+console.log("");
+
+Variable In Javascript:
+variable:
+-variable is Container
+-Container it is stored the  any type of value
+
+
+var myName: //variable Declaration
+//Declare Variable=>age
+  var age;
+ age="22";//variable Initialization
+
+ var age="22"//Declration & variablle
+____________________________________________________________________
+23/05/2024
+var city; //Variable Declaration
+log(city)=> undefined
+
+city="Pune";//initilization
+city="Mumbai";//update
+
+**Declaration and Initialization
+var city="Pune" //variable declaration & initilization on same line
+
+Null concept
+how want undefined
+how we can empty container?
+var city
+
+var age=null;
+age="22";
+age="55";
+datatypes are three types
+1.Primitive Datatype:(only hold or stored single value)
+  -Number //eg.var age=22; var price=22.23;
+  -String //eg.var name="Srushti";
+  -Boolean //eg.var isMarried= true; var haveSon=true; var isApproved=false;
+
+2.special Datatype:
+  -undefined //eg.var city; (value & type is undefined)
+  -Null //eg.var country=null;
+
+3.Reference data type(non-primitive/composite ):(we have strored multiple value)
+ -object
+ -Array
+
+Operator-->which we help us to find variable type
+typeof age; //number
+          typeof city;//(undefined special datatype)
+
+_____________________________________________________________
+24/05/2024
+Functions: function call
+invoke fun-function la call krne
+
+
+
+
+
+______________________________________________________________
+27/05/2024
+-string is anything enclose between in singlecoat or double coat.
+-string is instance of sequence/ collection of character.
+
+-index always start from 0
+- function / methods:
+           1.already defined
+           2.User Defined
+charAt method :
+total no of chars
+greet.length;
+
+-Property : not use paranethesis()
+-method-->Function--> use paraethesis()
+
+javascript Feature:
+1.Es6 launch in 2016
+  -String Template:console.log(`city Name ${city});// `,${} most imp
+  -${} -variable Substitution
+
+
+trim:cutting character
+include()-means in this string this char availble or not
+  particular method
+
+split():this method is imp
+var word = "My Life My Rule";
+
+
+assignment 2
+
+function stringHandsOn() 
+{
+ 
+}
+//9 .ends with //10.start with
+
+________________________________________________________________
+28/05/2024
+1.named  function syntax :
+function funName (arg1,arg..){
+......
+......
+}
+
+funName(0,2);//function call /invokation
+
+2.Function Expression:
+ -stored Function as a value
+   syntax :
+    var show = function()
+  {
+   ......
+   ......
+   ......
+  }
+
+var show = function()--->
+    -the funtion which doesnot have any name is called unknown /Anonymous funcion
+
+value define but doesnt value is undefined
+Operators: a special symbol use
+based on operands
+1.Unary operator: typeOf,++,--
+2.Binary Operator:+,-,*,/
+3.Ternary operator:-->? ,:
+
+increament operator
+1.prefix ++num; //var result = numFour++;
+2.postfix num++;
+
+decreament operator
+
+1.prefix --num; //var result = numFour--;
+2.postfix num--;
+
+
+difference == & === ?
+ans:==
+
+
+
+_________________________________________________________________
+
+31/05/2024
+
+
+looping or iteration statement:
+7 loop we have complete
+1.for loop
+
+//number from 1to10
+1-initial 
+2.condtion
+3.update
+{
+   for (var i=0; i<=10; i++)\
+         log(i);    //
+}
+
+  -for in loop
+  -for of loop
+  -foreach loop
+2.while loop
+3.do while loop
+
+
+var i=10 i=>10 i--
+
+switch case
+var dayNum = 3;
+switch (dayNum) {
+  case 1:
+    console.log("Monday");
+    break;
+  case 2:
+    console.log("Tuesday");
+    break;
+  case 3:
+    console.log("Wed");
+    break;
+  case 4:
+    console.log("Thursday");
+    break;
+  case 5:
+    console.log("Friday");
+    break;
+  case 6:
+    console.log("Saturday");
+    break;
+  case 7:
+    console.log("Sunday");
+    break;
+  default:
+    console.log(`Invalid value ${dayNum}`);
+    break;
+}
+
+while & do While loop
+
+console.log(`======== WAP to print numbers from 0 to 10==============`);
+var i = 0; // Initial expression
+while (i<=10) {  // condition
+    console.log(i);
+    i++; //Update expression
+}
+
+console.log(`======== WAP to print numbers from 5 to 10 ==============`);
+var i = 5; // Initial expression
+do {
+   console.log(i); 
+   i++; //Update expression
+} while (i<=10);// condition
